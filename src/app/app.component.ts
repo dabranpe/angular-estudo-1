@@ -8,6 +8,11 @@ import { Component, ElementRef } from '@angular/core';
 export class AppComponent {
   title = 'angular-estudo-1';
 
-
+  ExibirEsconderDiv(elemento : HTMLDivElement){
+    if (elemento.style.display == 'none')
+      elemento.style.display  = '';
+    else
+      elemento.style.display  = 'none';
+  }
 
 }
