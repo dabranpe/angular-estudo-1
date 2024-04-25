@@ -1,0 +1,26 @@
+<h1>Capítulo 6 Directives</h1>
+
+<p>ngIf</p>
+<button (click)="TurnVisible()">Click to view</button>
+<div *ngIf="isVisible">Content is visible</div>
+
+<p>ngFor</p>
+
+<ul>
+    <li *ngFor="let item of items">{{item}}</li>
+</ul>
+
+
+<p>ngClass</p>
+<button (click)="TurnHighlighted()">Click to Turn Highlighted</button>
+<button (click)="TurnItalic()">Click to Turn Italic</button>
+<div [ngClass]="{ 'highlight': isHighlighted, 'italic': isItalic  }">Highlighted: {{isHighlighted}}  - Italic: {{isItalic}}</div>
+
+
+<p>ngStyle</p>
+<div [ngStyle]="{'color':textColor, 'font-size': fontSize + 'px'}">Styled Div</div>
+
+
+<p>Custom Directive</p>
+
+<div appCustomDirectiveCap6>Highlight me!</div>

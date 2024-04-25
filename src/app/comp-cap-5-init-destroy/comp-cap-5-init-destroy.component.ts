@@ -3,7 +3,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 @Component({
   selector: 'app-comp-cap-5-init-destroy',
   templateUrl: './comp-cap-5-init-destroy.component.html',
-  styleUrl: './comp-cap-5-init-destroy.component.css'
+  styleUrl: '../app.component.css'
 })
 export class CompCap5InitDestroyComponent implements OnInit, OnDestroy {
   message !: string;

@@ -1,0 +1,18 @@
+p{
+    color: red;
+    font-weight: bold;    
+}
+
+h1{
+    color: blue;
+    font-weight: bold;    
+}
+
+.highlight{
+    color: #ad26ad;
+    text-decoration: underline;
+}
+
+.italic{
+    font-style: italic;
+}
