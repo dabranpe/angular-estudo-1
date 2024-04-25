@@ -4,8 +4,9 @@ p{
 }
 
 h1{
-    color: blue;
-    font-weight: bold;    
+    color:black;
+    font-weight: bold;        
+    text-decoration: underline;
 }
 
 .highlight{

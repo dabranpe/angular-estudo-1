@@ -1,0 +1,21 @@
+<h1>Capítulo 7 Data Binding</h1>
+
+<p>Interpolation</p>
+
+{{name}}
+
+<p>Property Binding</p>
+
+[disabled]="isDisable"
+<button [disabled]="isDisable">Click</button>
+
+<p>Event Binding</p>
+
+(click)="onClick()"
+<button (click)="onClick()">Click</button>
+
+
+<p>Two-Way Binding</p>
+
+ngModel precisa de FormsModule
+<input type="text" [(ngModel)]="name"/>
