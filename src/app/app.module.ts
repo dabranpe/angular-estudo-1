@@ -8,8 +8,9 @@ import { CompCap5InputOutputComponent } from './comp-cap-5-input-output/comp-cap
 import { CompCap5ChildComponent } from './comp-cap-5-child/comp-cap-5-child.component';
 import { CompCap5InitDestroyComponent } from './comp-cap-5-init-destroy/comp-cap-5-init-destroy.component';
 import { CompCap6DirectivesComponent } from './comp-cap-6-directives/comp-cap-6-directives.component';
-import { CustomDirectiveCap6Directive } from './custom-directive-cap-6.directive';
+import { CustomDirectiveCap6Directive } from './directives/custom-directive-cap-6.directive';
 import { CompCap7DataBindingComponent } from './comp-cap-7-data-binding/comp-cap-7-data-binding.component';
+import { CompCap8ServicesDiComponent } from './comp-cap-8-services-di/comp-cap-8-services-di.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CompCap7DataBindingComponent } from './comp-cap-7-data-binding/comp-cap
     CompCap5InitDestroyComponent,
     CompCap6DirectivesComponent,
     CustomDirectiveCap6Directive,
-    CompCap7DataBindingComponent
+    CompCap7DataBindingComponent,
+    CompCap8ServicesDiComponent
   ],
   imports: [
     BrowserModule,
