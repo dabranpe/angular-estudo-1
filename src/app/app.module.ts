@@ -11,6 +11,7 @@ import { CompCap6DirectivesComponent } from './comp-cap-6-directives/comp-cap-6-
 import { CustomDirectiveCap6Directive } from './directives/custom-directive-cap-6.directive';
 import { CompCap7DataBindingComponent } from './comp-cap-7-data-binding/comp-cap-7-data-binding.component';
 import { CompCap8ServicesDiComponent } from './comp-cap-8-services-di/comp-cap-8-services-di.component';
+import { CompCap9TemplateDrivenFormComponent } from './comp-cap-9-template-driven-form/comp-cap-9-template-driven-form.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CompCap8ServicesDiComponent } from './comp-cap-8-services-di/comp-cap-8
     CompCap6DirectivesComponent,
     CustomDirectiveCap6Directive,
     CompCap7DataBindingComponent,
-    CompCap8ServicesDiComponent
+    CompCap8ServicesDiComponent,
+    CompCap9TemplateDrivenFormComponent
   ],
   imports: [
     BrowserModule,

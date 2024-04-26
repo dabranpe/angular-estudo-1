@@ -4,7 +4,7 @@ import { ServiceCap8Data1Service } from '../services/service-cap-8-data-1.servic
 @Component({
   selector: 'app-comp-cap-8-services-di',
   templateUrl: './comp-cap-8-services-di.component.html',
-  styleUrl: './comp-cap-8-services-di.component.css'
+  styleUrl: '../app.component.css'
 })
 export class CompCap8ServicesDiComponent {
   data !: string;
