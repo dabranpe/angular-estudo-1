@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,6 +17,7 @@ import { CompCap9ReactiveFormComponent } from './comp-cap-9-reactive-form/comp-c
 import { CompCap10RoutingComponent } from './comp-cap-10-routing/comp-cap-10-routing.component';
 import { CompPagGeralComponent } from './comp-pag-geral/comp-pag-geral.component';
 import { CompCap10Routing2Component } from './comp-cap-10-routing-2/comp-cap-10-routing-2.component';
+import { CompCap11HttpObservableComponent } from './comp-cap-11-http-observable/comp-cap-11-http-observable.component';
 
 @NgModule({
   declarations: [
@@ -31,13 +33,15 @@ import { CompCap10Routing2Component } from './comp-cap-10-routing-2/comp-cap-10-
     CompCap9ReactiveFormComponent,
     CompCap10RoutingComponent,
     CompPagGeralComponent,
-    CompCap10Routing2Component
+    CompCap10Routing2Component,
+    CompCap11HttpObservableComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule, 
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [
     provideClientHydration()
